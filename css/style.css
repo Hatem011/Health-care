@@ -96,6 +96,9 @@ nav .nav-link{
 .nav-link:hover{
     color: var(--blue) !important;
 }
+.navbar-nav .active{
+    color: red !important;
+}
 /* home styles */
 .home-paragraph span{
 color: var(--blue);

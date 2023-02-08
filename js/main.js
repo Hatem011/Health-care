@@ -39,6 +39,8 @@ $("#btnUp").click(function()
 
 $(".nav-link").click(function()
 {
+    $(this).addClass("active")
+    $(this).parent().siblings().find('a').removeClass("active")
     let currentHref=$(this).attr("href")
     let currentOffset=$(currentHref).offset().top
     $("html,body").animate({scrollTop:currentOffset - 55},1000)
