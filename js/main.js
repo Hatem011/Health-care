@@ -20,7 +20,7 @@ $(window).scroll(function()
     console.log(wScroll);
     if(wScroll > 100)
     {
-    $("#main-nav").css("boxShadow","0 .3rem .5rem rgba(0, 0, 0, .3)")
+    $("#main-nav").css("boxShadow","0 .3rem .5rem rgba(0, 0, 0, .1)")
     $("#main-nav").css("backgroundColor","#fff")
     //  $("#btnUp").fadeIn(2000)
     }
